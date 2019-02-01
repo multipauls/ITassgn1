@@ -5,10 +5,10 @@ if [ "$#" -lt 2  -o "$#" -gt 4 ]; then
 	exit 0
 else
 
-	x=$(awk -F"|" '{print $2, $3}'  songlist.txt | grep -c "$1 $2")
+	x=$(awk -F"|" '{print $2, $3} ' songlist.txt | grep -c "$1 $2")
 	if [ "$x" -eq 0 ]; then
 		
-		id=$(tail -1 songlist.txt | awk -F'|' '{print $1}')
+		id=$(tail -1 songlist.txt | awk -F"|"  '{print $1} ')
 		id=$(($id + 1))
 		
 		if [ "$#" -eq 2 ]; then

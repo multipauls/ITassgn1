@@ -1,11 +1,14 @@
 if [ "$#" -lt 2 ]; then
         echo Error. Please enter songname and singer.
 else
-        x=$(grep -c "$1|$2" songlist.txt)
+	init1=$1
+	init2=$2
+
+	x=$(grep -c "$1|$2" songlist.txt)
         if [ $x -ne 0 ]; then
-		y=$(grep "$1|$2" songlist.txt| awk -F"|" '{print $1}')
-		z=$(grep "$1|$2" songlist.txt| awk -F"|" '{print $4}')
-		w=$(grep "$1|$2" songlist.txt| awk -F"|" '{print $5}')
+		y=$(grep "$1|$2" songlist.txt| awk -F"|" '{print $1}' )
+		z=$(grep "$1|$2" songlist.txt| awk -F"|" '{print $4}' )
+		w=$(grep "$1|$2" songlist.txt| awk -F"|" '{print $5}' )
 
 		echo Do you want to edit songname? [Y/N]
 		read ans
@@ -44,7 +47,7 @@ else
 		fi
 		
 		num=$(awk -F"|" '{print $2, $3}'  songlist.txt | grep -c "$nname $nsinger")
-        	if [ "$num" -eq 0 ]; then
+        	if [ "$nname" = "$init1" -a "$nsinger" = "$init2" -o "$num" -eq 0 ]; then
 			sed -i "/$1|$2/d" songlist.txt
 			echo "$y|$nname|$nsinger|$nlink|$ngen"  >> songlist.txt
 			sort -k 1 -t "|" songlist.txt > songlist2.txt

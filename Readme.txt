@@ -1,5 +1,7 @@
 Q1) Songlist
 
+	Command for setting up:		bash setup.sh
+		All the other 4 scripts will be setup.
 	Command for adding entries: 	./addentry.sh <songname(mandatory)> <singer(mandatory)> <youtube link(optional)> <genre(optional)>
 		The songs will be saved in a file called songlist.txt in the current directory.
 		The list will not accept duplicate songs (i.e. songs with the same songname and singer (case sensitive)).
