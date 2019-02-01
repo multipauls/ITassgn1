@@ -1,0 +1,66 @@
+
+loadkeys
+DESCRIPTION
+       The  program loadkeys reads the file or files specified by filename....	Its main purpose is to load the kernel keymap for the con‐
+loadunimap
+DESCRIPTION
+       The  loadunimap	command is obsolete - its method is now built-in into setfont.  However, for backwards compatibility it is still
+localc
+DESCRIPTION
+       LibreOffice (LO for short) is a multi-platform office productivity suite.  It was derived from OpenOffice.org 3.3 Beta on September
+locale
+DESCRIPTION
+       The locale command displays information about the current locale, or all locales, on standard output.
+--
+	      Display the available charmaps (character set description files).  To display the current character set for the locale,  use
+	      locale -c charmap.
+--
+       This  page is part of release 4.16 of the Linux man-pages project.  A description of the project, information about reporting bugs,
+       and the latest version of this page, can be found at https://www.kernel.org/doc/man-pages/.
+locale-check
+localectl
+DESCRIPTION
+       localectl may be used to query and change the system locale and keyboard layout settings. It communicates with systemd-localed(8)
+localedef
+DESCRIPTION
+       The  localedef  program	reads  the  indicated charmap and input files, compiles them to a binary form quickly usable by the locale
+--
+       This  page is part of release 4.16 of the Linux man-pages project.  A description of the project, information about reporting bugs,
+       and the latest version of this page, can be found at https://www.kernel.org/doc/man-pages/.
+locate
+DESCRIPTION
+       locate  reads one or more databases prepared by updatedb(8) and writes file names matching at least one of the PATTERNs to standard
+lodraw
+DESCRIPTION
+       LibreOffice (LO for short) is a multi-platform office productivity suite.  It was derived from OpenOffice.org 3.3 Beta on September
+loffice
+DESCRIPTION
+       LibreOffice (LO for short) is a multi-platform office productivity suite.  It was derived from OpenOffice.org 3.3 Beta on September
+lofromtemplate
+DESCRIPTION
+       LibreOffice (LO for short) is a multi-platform office productivity suite.  It was derived from OpenOffice.org 3.3 Beta on September
+logger
+DESCRIPTION
+       logger makes entries in the system log.
+logname
+DESCRIPTION
+       Print the name of the current user.
+loimpress
+DESCRIPTION
+       LibreOffice (LO for short) is a multi-platform office productivity suite.  It was derived from OpenOffice.org 3.3 Beta on September
+lollipop
+lomath
+DESCRIPTION
+       LibreOffice (LO for short) is a multi-platform office productivity suite.  It was derived from OpenOffice.org 3.3 Beta on September
+look
+DESCRIPTION
+     The look utility displays any lines in file which contain string as a prefix.
+lorder
+DESCRIPTION
+     The lorder utility uses nm(1) to determine interdependencies in the list of object files and library archives specified on the com‐
+loweb
+DESCRIPTION
+       LibreOffice (LO for short) is a multi-platform office productivity suite.  It was derived from OpenOffice.org 3.3 Beta on September
+lowriter
+DESCRIPTION
+       LibreOffice (LO for short) is a multi-platform office productivity suite.  It was derived from OpenOffice.org 3.3 Beta on September
